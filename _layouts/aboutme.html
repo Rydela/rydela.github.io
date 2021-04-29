@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{{ site.author }}</title>
+	<meta name="author" content="{{ site.author }}">
+	<meta name="description" content="{{ page.content | strip_html | strip_newlines }}">
+	<meta name="keywords" content="{{ page.meta.keywords }}">
+	{% include head.html %}
+</head>
+<body>
+	{% include header.html %}
+	<main class="content">
+		<section class="pages">
+			<div class="container-people">
+				{% for ppl in page.people %}
+				<div></div>
+				<div class="left">
+					<img src="{{ ppl.image }}">
+				</div>
+				<div class="right">
+					<h1>{{ ppl.title }}</h1>
+					<div class="pages-meta">
+						<span class="h2">{{ ppl.role }}</span>
+						<p>{{ ppl.intro }}</p>
+						<span class="h2"><a href="{{ ppl.url }}">website</a></span>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</section>
+	</main>
+	{% include footer.html %}
+	<script src="{{ "/assets/scripts/vendor/jquery-1.12.4.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/vendor/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/project.js" | prepend: site.baseurl }}"></script>
+</body>
+</html>

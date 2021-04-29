@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{{ site.author }}</title>
+	<meta name="author" content="{{ site.author }}">
+	<meta name="description" content="{{ page.content | strip_html | strip_newlines }}">
+	<meta name="keywords" content="{{ page.meta.keywords }}">
+	{% include head.html %}
+</head>
+<body>
+	{% include header.html %}
+	<main class="content">
+		<section class="pages">
+			<div class="container">
+				{% for pub in page.pubs %}
+				<div class="left">
+				<div class="video">
+					{% if pub.type == "vimeo" %}
+					{% include vimeoPlayer.html id=pub.id %}
+					{% elsif pub.type == "youtube" %}
+					{% include youtubePlayer.html id=pub.id %}
+					{% elsif pub.type == "webgl" %}
+					{% include webgl.html id=pub.id %}
+					{% endif %}
+				</div></div>
+				<div class="right">
+					<h1>{{ pub.title }}</h1>
+					<div class="pages-meta">
+						<span class="h2">{{ pub.year }}</span>
+						<p>{{ pub.authors }}<a href="{{ pub.url }}">{{ pub.ref }}</a>
+						{% if pub.web != "" %}
+						<a href="{{ pub.web }}">[website]</a>
+						{% endif %}
+					</p>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</section>
+	</main>
+	{% include footer.html %}
+	<script src="{{ "/assets/scripts/vendor/jquery-1.12.4.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/vendor/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/project.js" | prepend: site.baseurl }}"></script>
+</body>
+</html>
