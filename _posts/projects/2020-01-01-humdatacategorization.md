@@ -33,5 +33,6 @@ images:
 <br>
 <p>Over 2,000 datasets were scraped from the Humanitarian Data Exchange (HDX). The datasets pulled had Humanitarian Exchange Language (HXL) tags, which identify the type of data. This data was processed and distilled down to a certain number of tags that are only relevant to rapid needs assessments. These tags were then turned into categories for a training set for our model.Word embeddings were created using fastText, an NLP library created by Facebook. An MLP model is then trained using these word embeddings.</p>
 <br>
-<p>Assorted rapid needs assessment datasets are then tested to see the model's accuracy.</p>
+<p>Our classification accuracy averaged 91.8%, with some categories more successful than others. There were high levels of confidence on certain variables such as indicators, number affected, and administrative levels. There were interesting failures, such as confusion between time variables (“date” and “year” categories).</p>
 <br>
+<p>Assorted rapid needs assessment datasets are then tested to see the model's accuracy.</p>

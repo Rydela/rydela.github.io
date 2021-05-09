@@ -25,7 +25,7 @@ tagline: "Humanitarian Data Scientist"
 description: "I'm a humanitarian data scientist and statistician interested in how we use data and human centered design in emergency response."
 keywords: "humanitarian, AI, machine learning, data science"
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.rydela.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.rydela.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  rydela
 
