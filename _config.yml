@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ryan Arias Delafosse
+title: Ryan Arias Delafosse - Humanitarian Data Scientist
 email: r.arias.delafosse@gmail.com
 author: "Ryan Arias Delafosse"
 tagline: "Humanitarian Data Scientist"
-description: "I'm a humanitarian data scientist and statistician interested in how we use data and human centered design in emergency response."
+description: "Humanitarian data scientist and statistician interested in how we use data and human centered design in emergency response."
 keywords: "humanitarian, AI, machine learning, data science"
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.rydela.github.io" # the base hostname & protocol for your site, e.g. http://example.com
