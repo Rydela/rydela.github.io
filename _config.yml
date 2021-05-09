@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ryan Arias Delafosse - Humanitarian Data Scientist
+title: ryan arias delafosse - humanitarian data scientist
 email: r.arias.delafosse@gmail.com
 author: "Ryan Arias Delafosse"
 tagline: "Humanitarian Data Scientist"
