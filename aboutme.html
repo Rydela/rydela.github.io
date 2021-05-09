@@ -17,35 +17,25 @@
 </head>
 <body>
 	{% include header.html %}
-	<div class="banner"></div>
-	<main class="content">
+  <main class="content">
 		<section class="intro">
 			<div class="container">
 				<h2>About me.</h2>
 				<p>I'm a humanitarian data scientist interested in how we can use machine learning and human centered design in emergency response.</p>
 				<br>
-				<p>You can find out more about me <u><a href="/aboutme.html">here</a></u>.</p>
-<!-- if I want to include the site description here.
-				<p>{{ site.description }}</p>
--->
-			</div>
-		</section>
-		<section class="projects">
-			<div class="container">
-				<h2>Projects.</h2>
-				<ul class="projects-list">
-					{% for item in site.categories.projects %}
-						<li>
-							<a href="{{ item.url | prepend: site.baseurl }}">
-								<div class="img-wrapper">
-									<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
-								</div>
-								<span class="h2">{{ item.project.type }}</span>
-								<h3>{{ item.project.title }}</h3>
-							</a>
-						</li>
-					{% endfor %}
-				</ul>
+        <p>Over the course of the past decade I've worked with the Red Cross, UN, NGOs, and governments in conflict and disaster relief in the Middle East, Latin America, and Caribbean.</p>
+        <br>
+				<p>My work has ranged from multi-sector needs assessments, ICT4D project management, and digital transformation, to GIS mapping, machine learning, and NLP algorithms. </p>
+        <br>
+        <h2>Skill stack.</h2>
+        <p><i>Development:</i></p>
+        <p>HTML | CSS | Git | SharePoint | SQL | WordPress</p>
+        <br>
+        <p><i>Data Science:</i></p>
+        <p>R | Python | Scikit-Learn | TensorFlow | Keras | NLP Methodology</p>
+        <br>
+        <p><i>Assessment & Mapping:</i></p>
+        <p>SPSS | Excel | OpenStreetMap | QGIS | ArcGIS | Adobe Creative Suite | PowerBI</p>
 			</div>
 		</section>
 	</main>
