@@ -26,7 +26,7 @@ description: "Humanitarian data scientist and statistician interested in how we 
 keywords: "humanitarian, AI, machine learning, data science"
 image: "https://rydela.github.io/assets/images/pi-approximation-day-2014.webp"
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.rydela.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "rydela.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  rydela
 
