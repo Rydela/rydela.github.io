@@ -21,7 +21,7 @@ links:
     badge_message: "View on GitHub"
     url: "https://github.com/worldbank/OvertureLink-Data-Pipeline"
   - label: "Organization"
-    badge_message: "Visit World Bank"
+    badge_message: "Visit World Bank GitHub"
     url: "https://github.com/worldbank"
 ---
 ### Problem
