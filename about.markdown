@@ -4,15 +4,22 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am a data scientist focused on humanitarian and public-sector decision support.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Over the last decade, I have worked with the Red Cross, UN agencies, NGOs, and government teams across the Middle East, Latin America, and the Caribbean. My projects combine applied machine learning, NLP, GIS, and data product design to improve operational clarity in complex contexts.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Focus Areas
 
+- Applied machine learning and NLP for humanitarian workflows
+- Analytics products and dashboards for operational and policy decisions
+- Geospatial analysis and assessment support in crisis response
 
-[jekyll-organization]: https://github.com/jekyll
+## Working Style
+
+I prefer projects where analytical rigor, usable delivery, and measurable outcomes are equally important. I work end-to-end: problem framing, data workflows, modeling, and production-ready communication of results.
+
+## Contact
+
+- Email: [{{ site.email }}](mailto:{{ site.email }})
+- GitHub: [Rydela]({{ site.social.github }})
+- LinkedIn: [Ryan Arias Delafosse]({{ site.social.linkedin }})

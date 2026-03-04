@@ -1,0 +1,31 @@
+---
+layout: project
+title: "IFRC MENA Hub"
+slug: "ifrc-mena-hub"
+year: 2017
+section: "Data Science"
+summary: "Early regional information hub aggregating operational resources for IFRC MENA teams."
+methods:
+  - Information architecture
+  - Content structuring
+  - Coordination support
+outcome: "Centralized regional resources and project visibility prior to platform consolidation into IFRC GO."
+status: "discontinued"
+image: "/assets/images/projects/menahub/menahub.png"
+organization:
+  name: "International Federation of Red Cross and Red Crescent Societies"
+  url: "https://www.ifrc.org/"
+links:
+  - label: "Repository"
+    url: "https://github.com/mena-im/mena-im.github.io"
+  - label: "Organization"
+    url: "https://www.ifrc.org/"
+---
+### Problem
+Regional information was fragmented across channels, making coordinated access difficult for distributed teams.
+
+### Work
+I helped structure and maintain a single-entry regional hub for programs, references, and coordination information.
+
+### Delivery
+The hub improved discoverability and reduced coordination overhead during the period before IFRC GO standardization.

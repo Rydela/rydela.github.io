@@ -1,21 +1,10 @@
-<footer class="footer">
-	<div class="container">
-		<section class="contact">
-			<h2>Pages</h2>
-			<ul>
-				<!--<li><a href="{{ site.categories.pages[0].url }}">full portfolio</a></li>-->
-				<!--<li><li><a href="{{ site.categories.pages[0].url }}">about me</a></li>-->
-				<li><a href="{{ site.url }}">featured projects</a></li>
-				<li><a href="/aboutme.html">about me</a></li>
-			</ul>
-		</section>
-		<section class="follow">
-			<h2>Connect</h2>
-			<ul>
-				<li><a href="https://github.com/Rydela">github</a></li>
-				<li><a href="https://medium.com/@rariasdel">medium</a></li>
-				<li><a href="https://www.linkedin.com/in/rydelafosse/">linkedin</a></li>
-			</ul>
-		</section>
-	</div>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>{{ site.title }} · {{ site.role }}</p>
+    <ul class="inline-links">
+      <li><a href="mailto:{{ site.email }}">Email</a></li>
+      <li><a href="{{ site.social.github }}">GitHub</a></li>
+      <li><a href="{{ site.social.linkedin }}">LinkedIn</a></li>
+    </ul>
+  </div>
 </footer>

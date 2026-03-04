@@ -1,34 +1,32 @@
 ---
 layout: project
-permalink: /:title/
-category: projects
-
-meta:
-  keywords: "artificial intelligence, machine learning"
-
+title: Countering Terrorism Financing through AI
+permalink: /projects/ai-counter-terrorism-financing/
+date: 2021-03-01
+categories: [projects]
 project:
-  title: "Countering Terrorism Financing through AI"
-  type: "artificial intelligence, machine learning"
-  url: "https://omdena.com/projects/ai-terrorism/"
-  logo: "/assets/images/projects/aicounterterrorism/ailogo1.png"
-  tech: "artificial intelligence, graph theory analytics, dashboard building"
-
-agency:
-  title: "UN Office of Counter-Terrorism"
-  url: "https://www.un.org/counterterrorism/"
-  year: "2021"
-
-images:
-  - image:
-    url: "/assets/images/projects/aicounterterrorism/ailogo1.png"
-
+  summary: Collaborative AI initiative to strengthen financial intelligence workflows for counter-terrorism financing investigations.
+  methods:
+    - Graph analytics
+    - Entity resolution
+    - Risk scoring design
+    - Dashboard prototyping
+  outcome: Produced a practical prototype direction for cross-source analysis and investigator-facing workflows under a UN-aligned program.
+  status: archived
+  featured: true
+  category: machine-learning
+organization:
+  name: UN Office of Counter-Terrorism
+  url: https://www.un.org/counterterrorism/
+links:
+  - label: Project Overview
+    url: https://omdena.com/projects/ai-terrorism/
 ---
-<br>
-<p>goFintel is the “NEXT Generation platform for Detecting, Preventing and Countering Money Laundering and the Financing of Terrorism” </p>
-<br>
-<p>This project is currently in development in collaboration with Omdena.</p>
-<br>
-<p>Under the framework of the UN Office of Counter Terrorism “UN-OICT-UNCCT Global coordinated programme on detecting, preventing and countering the financing of terrorism” addressing UN Security Council Resolution 2462 and 2482 mandates, the UN initiated the goFintel project with the aim to strengthen Member States capacity to combat money laundering and the financing of terrorism.</p>
-<br>
-<p>goFintel seeks to shift away from a siloed approach to intelligence and expand money laundering and terrorism financing investigation capabilities through analysis that spans multiple and different data sources. This approach enables Financial Intelligence Units (FIU) to rely on advanced information sharing, data transmission and retention, secure ICT architectures, and cross-functional operational capabilities with multiple stakeholders (e.g., law enforcement, judiciary, etc.).</p>
-<br>
+### Problem
+Financial intelligence investigations are often siloed across institutions and data systems, which limits early detection and coordinated analysis.
+
+### Work
+I contributed to a multidisciplinary team that designed and validated AI-assisted investigation workflows, with emphasis on graph-based relationships and usable analyst outputs.
+
+### Delivery
+The work delivered a clear product and analytics direction that can be extended into operational FIU tooling in future phases.

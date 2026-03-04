@@ -3,3 +3,10 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+.bundle
+.home
+.local-gems
+.vendor
+scripts
+.DS_Store
+*.log
