@@ -16,9 +16,8 @@ organization:
   name: "Recovery and Development Agency, Virgin Islands Government"
   url: "https://www.bvirecovery.vg/"
 links:
-  - label: "Live Project"
-    url: "https://www.bvirecovery.vg/"
   - label: "Organization"
+    badge_message: "Visit BVI Gov"
     url: "https://www.bvirecovery.vg/"
 ---
 ### Problem

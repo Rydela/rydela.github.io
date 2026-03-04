@@ -11,15 +11,18 @@ methods:
   - Risk scoring design
   - Dashboard prototyping
 outcome: "Produced a practical prototype direction for cross-source analysis and investigator-facing workflows under a UN-aligned program."
-status: "archived"
+status: "complete"
 image: "/assets/images/projects/aicounterterrorism/ailogo1.png"
 organization:
   name: "UN Office of Counter-Terrorism"
   url: "https://www.un.org/counterterrorism/"
 links:
-  - label: "Live Project"
+  - label: "Project"
+    badge_message: "Visit on Omdena"
+    logo: "Google-Chrome"
     url: "https://omdena.com/projects/ai-terrorism/"
   - label: "Organization"
+    badge_message: "Visit UNODC"
     url: "https://www.un.org/counterterrorism/"
 ---
 ### Problem

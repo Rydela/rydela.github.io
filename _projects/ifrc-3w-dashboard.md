@@ -10,16 +10,18 @@ methods:
   - Coordination analytics
   - Dashboard design
 outcome: "Provided a consolidated 3W view before migration to newer IFRC GO platform workflows."
-status: "discontinued"
+status: "archived"
 image: "/assets/images/projects/mena3w/mena3w.png"
 organization:
   name: "International Federation of Red Cross and Red Crescent Societies"
   url: "https://www.ifrc.org/"
 links:
-  - label: "Repository"
+  - label: "GitHub"
+    badge_message: "View on GitHub"
     url: "https://github.com/Rydela/GoMENA"
-  - label: "Live Project"
-    url: "https://go.ifrc.org/regions/4#operations"
+  - label: "Organization"
+    badge_message: "Visit IFRC"
+    url: "https://www.ifrc.org/"
 ---
 ### Problem
 Regional coordination required a common picture of who was doing what and where across multiple operations.

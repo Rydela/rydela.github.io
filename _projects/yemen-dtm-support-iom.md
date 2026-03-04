@@ -10,16 +10,15 @@ methods:
   - Assessment methodology review
   - Information product design
 outcome: "Delivered geospatial and analytical support for displacement tracking products used by response stakeholders."
-status: "archived"
+status: "complete"
 image: "/assets/images/projects/iom/iomtpfm.png"
 organization:
   name: "International Organization for Migration"
   url: "https://www.iom.int/"
 links:
-  - label: "Live Project"
-    url: "https://dtm.iom.int/yemen"
   - label: "Organization"
-    url: "https://www.iom.int/"
+    badge_message: "Visit IOM DTM"
+    url: "https://dtm.iom.int/yemen"
 ---
 ### Problem
 Crisis operations required timely displacement information and consistent methods for population movement analysis.

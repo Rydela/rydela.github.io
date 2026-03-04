@@ -10,15 +10,17 @@ methods:
   - Geospatial visualization
   - Operational data structuring
 outcome: "Delivered an interactive operations overview that improved project visibility before later platform transitions."
-status: "discontinued"
+status: "archived"
 image: "/assets/images/projects/syria3w/syria3w.png"
 organization:
   name: "British Red Cross"
   url: "https://www.redcross.org.uk/"
 links:
-  - label: "Live Project"
-    url: "https://mena-im.github.io/syria3w/"
+  - label: "GitHub"
+    badge_message: "View on GitHub"
+    url: "https://github.com/Rydela/Syria3W"
   - label: "Organization"
+    badge_message: "Visit BRC"
     url: "https://www.redcross.org.uk/"
 ---
 ### Problem

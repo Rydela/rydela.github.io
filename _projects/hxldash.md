@@ -11,16 +11,15 @@ methods:
   - Data transformation
   - Dashboard templating
 outcome: "Helped deliver a reusable reporting toolkit that reduced setup time for crisis dashboards and map products."
-status: "active"
+status: "complete"
 image: "/assets/images/projects/hxldash/hxldash1.png"
 organization:
   name: "British Red Cross and Humanitarian Data Exchange"
   url: "https://hxldash.com/"
 links:
-  - label: "Live Project"
-    url: "https://hxldash.com/"
-  - label: "Organization"
-    url: "https://www.redcross.org.uk/"
+  - label: "GitHub"
+    badge_message: "View on GitHub"
+    url: "https://github.com/Rydela/hxlreports"
 ---
 ### Problem
 Humanitarian teams frequently need to build dashboards quickly, but repeated setup work delays operational use.

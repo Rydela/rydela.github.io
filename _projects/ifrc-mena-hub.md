@@ -10,15 +10,17 @@ methods:
   - Content structuring
   - Coordination support
 outcome: "Centralized regional resources and project visibility prior to platform consolidation into IFRC GO."
-status: "discontinued"
+status: "archived"
 image: "/assets/images/projects/menahub/menahub.png"
 organization:
   name: "International Federation of Red Cross and Red Crescent Societies"
   url: "https://www.ifrc.org/"
 links:
-  - label: "Repository"
+  - label: "GitHub"
+    badge_message: "View on GitHub"
     url: "https://github.com/mena-im/mena-im.github.io"
   - label: "Organization"
+    badge_message: "Visit IFRC"
     url: "https://www.ifrc.org/"
 ---
 ### Problem

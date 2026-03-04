@@ -10,15 +10,17 @@ methods:
   - Data visualization
   - Assessment metadata curation
 outcome: "Improved visibility of assessment coverage and reduced duplication risk in humanitarian analysis workflows."
-status: "discontinued"
+status: "archived"
 image: "/assets/images/projects/syriasos/syriasos.png"
 organization:
   name: "British Red Cross"
   url: "https://www.redcross.org.uk/"
 links:
-  - label: "Live Project"
-    url: "http://mena-im.github.io/surveys/"
+  - label: "GitHub"
+    badge_message: "View on GitHub"
+    url: "https://github.com/Rydela/surveys"
   - label: "Organization"
+    badge_message: "Visit BRC"
     url: "https://www.redcross.org.uk/"
 ---
 ### Problem

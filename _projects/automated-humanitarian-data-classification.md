@@ -11,15 +11,17 @@ methods:
   - Multi-layer perceptron
   - Supervised classification
 outcome: "Reached 91.8% average classification accuracy across key humanitarian data categories used in rapid assessments."
-status: "archived"
+status: "complete"
 image: "/assets/images/projects/humdata/humdata3.png"
 organization:
   name: "Humanitarian Data Exchange"
   url: "https://data.humdata.org/"
 links:
   - label: "GitHub"
+    badge_message: "View on GitHub"
     url: "https://github.com/Rydela/Humanitarian-Data-Classification"
   - label: "Organization"
+    badge_message: "Visit HDX"
     url: "https://data.humdata.org/"
 ---
 ### Problem
