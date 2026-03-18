@@ -2,15 +2,8 @@ title: Ryan Arias Delafosse
 logo: "assets/images/Headshot.png"
 
 description: |
-  <p align="center"><strong>Data Scientist @ World Bank</strong></p>
-  <p align="center">
-    <a href="mailto:r.arias.delafosse@gmail.com">Email</a> |
-    <a href="https://www.linkedin.com/in/rydelafosse/">LinkedIn</a> |
-    <a href="https://github.com/Rydela">GitHub</a>
-  </p>
-  <p align="justify">
-    Data scientist focused on humanitarian aid and international development.
-  </p>
+  <p><strong>Data Scientist @ World Bank</strong></p>
+  <p>Data scientist focused on humanitarian aid and international development.</p>
 
 theme: jekyll-theme-minimal
 show_downloads: false
@@ -21,6 +14,10 @@ baseurl: ""
 email: r.arias.delafosse@gmail.com
 role: Data Scientist @ World Bank
 location: Paris, France
+
+social:
+  github: "https://github.com/Rydela"
+  linkedin: "https://www.linkedin.com/in/rydelafosse/"
 
 collections:
   projects:

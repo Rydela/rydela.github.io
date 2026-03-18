@@ -2,10 +2,9 @@
 layout: default
 ---
 
-# Portfolio
+## Portfolio
 
 {% assign all_projects = site.projects | sort: "year" | reverse %}
-Most recent work first.
 
 {% for project in all_projects %}
 ### [{{ project.title }}]({{ project.url | relative_url }})
@@ -37,13 +36,12 @@ Most recent work first.
   {% endfor %}
 </p>
 
-<div style="text-align: justify">{{ project.summary }} {{ project.outcome }}</div>
-<br>
+{{ project.summary }} {{ project.outcome }}
+
 {% if project.image %}
-<center><img src="{{ project.image | relative_url }}" alt="{{ project.title }}"></center>
-<br>
+<img class="project-image" src="{{ project.image | relative_url }}" alt="{{ project.title }}">
 {% endif %}
 ---
 {% endfor %}
 
-<center>© {{ "now" | date: "%Y" }} Ryan Arias Delafosse - Data Scientist portfolio.</center>
+<p style="text-align: center; color: #888; font-size: 13px;">© {{ "now" | date: "%Y" }} Ryan Arias Delafosse</p>

@@ -4,9 +4,9 @@ Portfolio site for Ryan Arias Delafosse, built on Jekyll Minimal theme.
 
 ## Site Structure
 
-- `/` chronological project narrative (`index.md`)
-- `/portfolio/` compact chronological table (`portfolio.md`)
-- `/projects/<slug>/` individual project pages from `_projects/`
+- `/` — project archive, reverse-chronological (`index.md`)
+- `/about/` — bio, focus areas, contact (`about.markdown`)
+- `/projects/<slug>/` — individual project pages from `_projects/`
 
 ## Content Model
 
@@ -20,9 +20,19 @@ Projects live in `_projects/*.md` with front matter fields:
 - `methods`
 - `outcome`
 - `status`
-- `image`
+- `image` (optional)
 - `organization`
 - `links`
+
+Each project page follows a **Problem / Work / Delivery** narrative structure in the body.
+
+## Design
+
+- Jekyll Minimal theme with custom overrides in `_sass/jekyll-theme-minimal.scss`
+- 270px fixed sidebar (identity anchor) + 600px content column
+- Noto Sans 16px / 1.65 line-height, #444 body text
+- Navigation (`_includes/header.html`) and contact links in sidebar
+- Shield.io badges for project links
 
 ## Local Preview
 
@@ -32,8 +42,10 @@ export GEM_HOME="$PWD/.local-gems"
 export GEM_PATH="$PWD/.local-gems"
 export PATH="$PWD/.local-gems/bin:$PATH"
 bundle install
-bundle exec jekyll serve --livereload
+bundle exec jekyll serve
 ```
+
+Note: changes to `_config.yml` require a server restart to take effect.
 
 ## Local-Only Files
 

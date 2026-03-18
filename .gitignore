@@ -8,5 +8,5 @@ vendor
 .local-gems
 .vendor
 scripts
-.DS_Store
 *.log
+TODOS.md
